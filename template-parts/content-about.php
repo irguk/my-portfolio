@@ -1,25 +1,24 @@
 <?php
 /**
- * Template-Part: "Über mich"-Sektion für Wiederverwendung auf verschiedenen Seiten
+ * Template-Part: "Über mich"-Sektion
  */
 ?>
 
 <!-- ==========================================
-     ABOUT ME BLOCK
+     ABOUT ME SECTION
 =========================================== -->
-<section class="about-block-section padding-y">
+<section id="about" class="about-section">
     <div class="container about-container">
         <div class="about-content">
             <h2 class="section-title">Über mich</h2>
-            <p class="about-description">
-                Fachinformatikerin für Anwendungsentwicklung mit Fokus auf moderne Webanwendungen, 
-                maßgeschneiderte WordPress-Lösungen und barrierefreie Benutzeroberflächen.
+            <p class="about-text">
+                Fachinformatikerin für Anwendungsentwicklung mit Leidenschaft für sauberen Code, 
+                performante Datenbankstrukturen und benutzerfreundliche Interfaces.
             </p>
             <a href="#" class="btn btn-primary">Lebenslauf herunterladen</a>
         </div>
-        
         <div class="about-image-wrapper">
-            <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/about-portrait.png" alt="Iryna Gukova">
+            <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img_/image.png" alt="Iryna Gukova Portrait" class="about-img">
         </div>
     </div>
 </section>

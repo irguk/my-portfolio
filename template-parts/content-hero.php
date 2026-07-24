@@ -5,26 +5,28 @@
 ?>
 
 <!-- ==========================================
-     HERO SECTION
+     HERO SECTION (Hauptbereich)
 =========================================== -->
-<section class="hero-section padding-y">
+<section class="hero-section">
     <div class="container hero-container">
-        <!-- Linke Spalte: Text & Buttons -->
+        <!-- Linker Bereich: Text & Buttons -->
         <div class="hero-content">
-            <span class="hero-subtitle">UI/UX DESIGNER & DEVELOPER</span>
-            <h1 class="hero-title">Hallo, ich heiße Iryna Gukova</h1>
-            <p class="hero-description">
-                Kurzer Beschreibungstext über Kenntnisse, Projekterfahrungen und berufliche Ziele im Bereich der Anwendungsentwicklung.
+            <span class="subtitle">FULL-STACK & WEB DEVELOPER</span>
+            <h1 class="hero-title">Hallo, ich bin<br>Iryna Gukova</h1>
+            <p class="hero-text">
+                Fachinformatikerin für Anwendungsentwicklung. Ich entwickele moderne Webanwendungen, 
+                maßgeschneiderte WordPress-Lösungen und optimiere digitale Produkte für maximale Performance und Barrierefreiheit.
             </p>
             <div class="hero-buttons">
-                <a href="#projects" class="btn btn-primary">Projekte</a>
+                <a href="#projects" class="btn btn-primary">Projekte ansehen</a>
                 <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="btn btn-outline">LinkedIn</a>
+                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="btn btn-outline">GitHub</a>
             </div>
         </div>
 
-        <!-- Rechte Spalte: Gelbe Hintergrundform mit Bild -->
+        <!-- Rechter Bereich: Hero-Bild mit Hintergrund -->
         <div class="hero-image-wrapper">
-            <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/hero-portrait.png" alt="Iryna Gukova Portrait">
+            <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img_/image.png" alt="Iryna Gukova Portrait" class="hero-img">
         </div>
     </div>
 </section>

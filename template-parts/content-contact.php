@@ -1,15 +1,15 @@
 <?php
 /**
- * Template-Part für den Kontaktbereich und das Wellen-Dekorelement im Footer
+ * Template-Part: Kontakt-Sektion mit Wellen-Element
  */
 ?>
 
 <!-- ==========================================
      KONTAKT SECTION & FOOTER WAVE
 =========================================== -->
-<section class="contact-section">
+<section id="contact" class="contact-section">
     <div class="container">
-        <h2 class="section-title">Kontakt</h2>
+        <h2 class="section-title text-center">Kontakt</h2>
         
         <!-- Einbindung des Contact Form 7 Shortcodes -->
         <div class="contact-form-wrapper">
