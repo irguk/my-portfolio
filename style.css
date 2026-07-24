@@ -1,0 +1,13 @@
+/*
+Theme Name: My Portfolio Theme
+Author: Iryna Gukova
+Description: Custom WordPress Theme für Portfolio
+Version: 1.0
+*/
+
+/* Haupt-Styles für WordPress */
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
